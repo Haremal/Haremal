@@ -4,7 +4,7 @@ I'm a passionate developer working with a wide range of technologies — from ga
 
 ## 💻 Developer Stack
 
-| IDE             | Languages     | Tools            |
+| SOFTWARE        | LANGUAGES     | TOOLS/FRAMEWORKS |
 |-----------------|---------------|------------------|
 | IntelliJ IDEA   | Java / Kotlin | NeoForge         |
 | Rider           | C++ / C#      | Unreal / Unity   |
