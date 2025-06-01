@@ -11,7 +11,7 @@ I'm a passionate developer working with a wide range of technologies — from ga
 | PyCharm         | Python        | Django           |
 | Android Studio  | Dart          | Flutter          |
 | WebStorm        | JS / TS       | React / Slidev   |
-| Blender         | —             | 3D Modeling / VFX |
+| Blender         | —             | Full 3D Pipeline |
 
 ## 🛠️ What I Do
 
