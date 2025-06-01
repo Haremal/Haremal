@@ -1,16 +1,26 @@
-## Hi there 👋
+# 👋 Hi there!
 
-<!--
-**Haremal/Haremal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a passionate developer working with a wide range of technologies — from game engines and mobile frameworks to web and 3D tools. Here's a quick overview of my setup:
 
-Here are some ideas to get you started:
+## 💻 Developer Stack
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| IDE             | Languages     | Tools            |
+|-----------------|---------------|------------------|
+| IntelliJ IDEA   | Java / Kotlin | NeoForge         |
+| Rider           | C++ / C#      | Unreal / Unity   |
+| PyCharm         | Python        | Django           |
+| Android Studio  | Dart          | Flutter          |
+| WebStorm        | JS / TS       | React / Slidev   |
+| Blender         | —             | 3D Modeling / VFX |
+
+## 🛠️ What I Do
+
+- 🧱 Build Minecraft mods using NeoForge
+- 🎮 Develop games in Unity & Unreal
+- 🌐 Create full-stack apps with Django & React
+- 📱 Design mobile apps with Flutter
+- 🎞️ Work on 3D projects in Blender
+
+---
+
+📫 Feel free to reach out or explore my projects!
