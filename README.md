@@ -1,4 +1,4 @@
-# 👋 Hi there!
+# ✨ About me
 
 I'm a passionate developer working with a wide range of technologies — from game engines and mobile frameworks to web and 3D tools. Here's a quick overview of my setup:
 
