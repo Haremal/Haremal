@@ -23,7 +23,8 @@ I'm a passionate developer working with a wide range of technologies — from ga
 
 ## 📫 Find me on:
 
-🔗 [CurseForge](https://www.curseforge.com/members/haremal/projects)
+- 🔗 [CurseForge](https://www.curseforge.com/members/haremal/projects)
+
 ---
 
 📫 Feel free to reach out or explore my projects!
