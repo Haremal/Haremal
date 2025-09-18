@@ -1,24 +1,20 @@
 # ✨ About Me
 
-I'm a passionate developer working with a wide range of technologies — from game engines and mobile frameworks to web and 3D tools. Here's a quick overview of my setup:
+I'm a passionate indie game developer who also learns 3D modeling, animation, storytelling, and other creative skills
 
 ## 💻 Developer Stack
 
-| SOFTWARE        | LANGUAGES     | TOOLS/FRAMEWORKS |
+| SOFTWARE        | LANGUAGES     | TOOLS |
 |-----------------|---------------|------------------|
 | IntelliJ IDEA   | Java / Kotlin | NeoForge         |
 | Rider           | C++ / C#      | Unreal / Unity   |
-| PyCharm         | Python        | Django           |
-| Android Studio  | Dart          | Flutter          |
-| WebStorm        | JS / TS       | React / Slidev   |
+| PyCharm         | Python        | —                |
 | Blender         | —             | Full 3D Pipeline |
 
 ## 🛠️ What I Do
 
 - 🧱 Build Minecraft mods using NeoForge
 - 🎮 Develop games in Unity & Unreal
-- 🌐 Create full-stack apps with Django & React
-- 📱 Design mobile apps with Flutter
 - 🎞️ Work on 3D projects in Blender
 
 ## 📫 Find me on:
