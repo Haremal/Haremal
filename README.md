@@ -2,17 +2,20 @@
 
 I'm a passionate indie game developer who also learns 3D modeling, animation, storytelling, and other creative skills
 
+---
+
 ## 💻 Developer Stack
-
-| SOFTWARE        | LANGUAGES     | TOOLS |
-|-----------------|---------------|------------------|
-| IntelliJ IDEA   | Java / Kotlin | NeoForge         |
-| Rider           | C++ / C#      | Unreal / Unity   |
-| PyCharm         | Python        | —                |
-| Blender         | —             | Full 3D Pipeline |
-
+```
+| Coding Languages | IDEs / Editors |
+|------------------|----------------|
+| Python           | PyCharm        |         | GameDev / Art Tools |
+| C#               | Rider          |         |---------------------|
+| C++              | CLion          |         | Blender             |
+| Java / Kotlin    | IntelliJ IDEA  |         | Unity Hub           |
+| JavaScript       | WebStorm       |
+| Lua              | Neovim         |
+```
 ## 🛠️ What I Do
-
 - 🧱 Build Minecraft mods using NeoForge
 - 🎮 Develop games in Unity & Unreal
 - 🎞️ Work on 3D projects in Blender
