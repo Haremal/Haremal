@@ -7,12 +7,10 @@ I'm a passionate indie game developer who also learns 3D modeling, animation, st
 ## 💻 Developer Stack
 ```
 | Coding Languages | IDEs / Editors |
-|------------------|----------------|
-| Python           | PyCharm        |         | GameDev / Art Tools |
+|------------------|----------------|         | GameDev / Art Tools |
 | C#               | Rider          |         |---------------------|
 | C++              | CLion          |         | Blender             |
 | Java / Kotlin    | IntelliJ IDEA  |         | Unity Hub           |
-| JavaScript       | WebStorm       |
 | Lua              | Neovim         |
 ```
 ## 🛠️ What I Do
