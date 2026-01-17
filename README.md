@@ -1,3 +1,6 @@
+# --- DEPRACATED ---
+
+
 # ✨ About Me
 
 I'm a passionate indie game developer who also learns 3D modeling, animation, storytelling, and other creative skills
