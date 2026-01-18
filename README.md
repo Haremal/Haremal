@@ -1,4 +1,4 @@
-# --- DEPRACATED ---
+# --- DEPRECATED ---
 
 
 # ✨ About Me
