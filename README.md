@@ -1,6 +1,6 @@
 # --- DEPRECATED ---
 
-
+```
 # ✨ About Me
 
 I'm a passionate indie game developer who also learns 3D modeling, animation, storytelling, and other creative skills
@@ -15,3 +15,4 @@ I'm a passionate indie game developer who also learns 3D modeling, animation, st
 ---
 
 📫 Feel free to reach out or explore my projects!
+```
