@@ -1,0 +1,36 @@
+#!/bin/bash
+if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
+    # 1. Wait for internet
+    until ping -c 1 archlinux.org &>/dev/null; do
+        echo "Waiting for internet..."
+        sleep 2
+    done
+    # 2. Prepare environment
+	mount -o remount,size=8G /run/archiso/cowspace
+    pacman -Sy --noconfirm archlinux-keyring 
+    pacman -S --noconfirm git
+
+    # 3. Cleanup
+    umount -A -R /mnt 2>/dev/null || true
+    rm -rf /tmp/HaremalOS
+    if git clone https://github.com/Haremal/HaremalOS /tmp/HaremalOS; then
+        # 4. Handle permissions automatically
+        chmod +x /tmp/HaremalOS/install.sh 2>/dev/null
+
+        # 5. Execute the installer
+        if [[ -f /tmp/HaremalOS/install.sh ]]; then
+            /tmp/HaremalOS/install.sh
+        else
+            echo "Error: install.sh not found in repository."
+            exit 1
+        fi
+    else
+        echo "Error: Failed to clone repository."
+        exit 1
+    fi
+
+    # 6. Cleanup and Reboot
+    rm -rf /tmp/HaremalOS
+	umount -lR /mnt 2>/dev/null || true
+	echo "If everything is alright type 'reboot'"
+fi

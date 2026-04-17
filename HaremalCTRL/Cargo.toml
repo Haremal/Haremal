@@ -1,0 +1,19 @@
+[package]
+name = "HaremalCTRL"
+version = "0.1.0"
+authors = ["haremal"]
+edition = "2021"
+
+[dependencies]
+dioxus = { version = "0.7.1", features = [] }
+tokio = { version = "1", features = ["full"] }
+bluer = { version = "0.17", features = ["bluetoothd"] }
+locale-codes = "0.3.0"
+rfd = "0.17.2"
+futures-util = { version = "0.3", features = ["alloc"] }
+udev = "0.8"
+fontdb = "0.23.0"
+include_dir = "0.7.4"
+[features]
+default = ["desktop"]
+desktop = ["dioxus/desktop"]
