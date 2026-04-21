@@ -29,7 +29,7 @@ chmod -R a+rx /opt/cargo/bin/
 
 # --- 3. THE HAREMAL OS STACK (Core Apps) ---
 pacman -S --noconfirm --needed \
-	ly niri awww wallust-git hypridle hyprlock \
+	ly niri awww wallust-git hypridle \
 	rio helix yazi bottom cava neo-matrix-git \
 	mpv ffmpeg ouch wl-clipboard-rs libnotify wireplumber \
 	brightnessctl lm_sensors fd ripgrep papirus-icon-theme bibata-cursor-theme
@@ -37,6 +37,7 @@ pacman -S --noconfirm --needed \
 # --- 4. OTHERS ---
 pacman -Rdd --noconfirm nautilus
 pacman -S --noconfirm --needed pinta
+pacman -S --noconfirm --needed noto-fonts noto-fonts-extra noto-fonts-emoji noto-fonts-cjk
 
 # --- 5. CHOSEN APPS ---
 [[ "${I_STEAM:-N}" =~ [Yy] ]] && pacman -S --noconfirm --needed steam gamescope

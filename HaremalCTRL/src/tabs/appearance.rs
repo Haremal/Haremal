@@ -1,5 +1,3 @@
-use std::process::Termination;
-
 use crate::{config_read, config_remove, config_update, config_write};
 use dioxus::prelude::*;
 
@@ -84,15 +82,15 @@ pub fn Appearance() -> Element {
     });
 
     let mut center_focused_column =
-        use_signal(|| !config_read(Some("niri/config.kdl"), "center-focused-column")[0].is_empty());
+        use_signal(|| !config_read(Some("niri/config.kdl"), "center-focused-column").is_empty());
     let mut center_single_column = use_signal(|| {
-        !config_read(Some("niri/config.kdl"), "always-center-single-column")[0].is_empty()
+        !config_read(Some("niri/config.kdl"), "always-center-single-column").is_empty()
     });
     let mut empty_workspace_above = use_signal(|| {
-        !config_read(Some("niri/config.kdl"), "empty-workspace-above-first")[0].is_empty()
+        !config_read(Some("niri/config.kdl"), "empty-workspace-above-first").is_empty()
     });
     let mut shadow =
-        use_signal(|| !config_read(Some("niri/config.kdl"), "on // shadow")[0].is_empty());
+        use_signal(|| !config_read(Some("niri/config.kdl"), "on // shadow").is_empty());
 
     let mut corner_radius = use_signal(|| {
         let conf = config_read(Some("niri/config.kdl"), "geometry-corner-radius")[0].clone();

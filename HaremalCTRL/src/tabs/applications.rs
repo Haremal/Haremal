@@ -44,6 +44,7 @@ pub fn Applications() -> Element {
                 div {
                     button {
                         class: "tab_button",
+                        background_color: "#303000",
                         onclick: move |_| {
                             let state = !tables[0]();
                             tables.iter_mut().for_each(|t| t.set(false));
@@ -109,7 +110,7 @@ pub fn Applications() -> Element {
                                                                 .show()
                                                                 .await;
                                                             if confirmed == rfd::MessageDialogResult::Yes {
-                                                                config_remove(Some("niri/config.kdl"), &first_owned);
+                                                                config_remove(Some("niri/config.kdl"), &format!("{} {{", first_owned));
                                                                 keybinds.set(config_read(Some("niri/config.kdl"), "keybind"));
                                                             }
                                                         });

@@ -147,19 +147,29 @@ pub fn Devices() -> Element {
                                             visibility: if !ui_on() { "hidden" },
                                             td { h2 { "{n}" } span { color: "#ef476f", "DISCONNECTED" } }
                                             td { width: "10px",
-                                                button { onclick: move |_| {
+                                                button { height: "30px", padding: "5px", onclick: move |_| {
                                                     let d1 = d1.clone();
                                                     spawn(async move {
                                                         let _ = d1.connect().await;
                                                         sync_handle.send(());
                                                     });
                                                 }, "Connect" },
-                                                button { onclick: move |_| {
+                                                button { height: "30px", padding: "5px", onclick: move |_| {
                                                     let d2 = d2.clone();
+                                                    let n = n.clone();
                                                     let adapter_opt = adapter.read().clone().flatten();
                                                     spawn(async move {
-                                                        if let Some(a) = adapter_opt {
-                                                            let _ = a.remove_device(d2.address()).await;
+                                                        let confirmed = rfd::AsyncMessageDialog::new()
+                                                            .set_level(rfd::MessageLevel::Info)
+                                                            .set_title("Confirm Removal")
+                                                            .set_description(format!("Remove this device: {}?", n))
+                                                            .set_buttons(rfd::MessageButtons::YesNo)
+                                                            .show()
+                                                            .await;
+                                                        if confirmed == rfd::MessageDialogResult::Yes {
+                                                            if let Some(a) = adapter_opt {
+                                                                let _ = a.remove_device(d2.address()).await;
+                                                            }
                                                             sync_handle.send(());
                                                         }
                                                     });

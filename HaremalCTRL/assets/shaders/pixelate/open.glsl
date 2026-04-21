@@ -1,4 +1,4 @@
- ec4 pixelate_open(vec3 coords_geo, vec3 size_geo) {
+vec4 pixelate_open(vec3 coords_geo, vec3 size_geo) {
     if (coords_geo.x < 0.0 || coords_geo.x > 1.0 || coords_geo.y < 0.0 || coords_geo.y > 1.0) {
         return vec4(0.0);
     }

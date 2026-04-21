@@ -1,6 +1,7 @@
 * {
   font-family: "system";
   user-select: none;
+  box-sizing: border-box;
 }
 h1 {
   padding-left: 20px;
