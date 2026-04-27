@@ -1,0 +1,16 @@
+# DEPENDENCIES
+BUILT-IN: mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon \
+libva-mesa-driver lib32-libva-mesa-driver libva-utils \
+pipewire pipewire-pulse pipewire-alsa pipewire-jack \
+networkmanager bluez bluez-utils glib2 fontconfig \
+wayland wayland-protocols xorg-xwayland xwayland-satellite \
+gsettings-desktop-schemas qt5-wayland qt6-wayland \
+xdg-desktop-portal polkit libsecret keepassxc \
+base-devel git socat ninja jq \
+rust rust-analyzer clang mold \
+noto-fonts noto-fonts-extra noto-fonts-emoji noto-fonts-cjk \
+mpv ffmpeg ouch wl-clipboard-rs libnotify wireplumber \
+brightnessctl lm_sensors fd ripgrep papirus-icon-theme bibata-cursor-theme \
+helix bottom cava neo-matrix-git fastfetch
+
+cargo install dioxus-cli cargo-watch cargo-bundle	
