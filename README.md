@@ -1,3 +1,5 @@
+|WIP|
+```
 # HaremalOS
 > A minimalist, performance-driven Arch Linux distribution optimized for AMD hardware and the Wayland compositor.
 
@@ -37,3 +39,4 @@ Controlled Via ONE. SINGULAR. APP.<br>
 2. **Flash** the ISO onto a USB drive (using Etcher or `dd`).
 3. **Connect** your PC to wired internet (Ethernet).
 4. **Boot** the HaremalOS Live ISO; the installer will trigger automatically.
+```
